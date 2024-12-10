@@ -1,0 +1,115 @@
+.Content {
+  width: 98%;
+  height: 758px;
+  justify-self:center;
+  margin-top: 2%;
+  
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Wrapper {
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 12px;
+    /* //padding-inline: 20px; */
+    border-bottom: #4A628A;
+    border-bottom: 10 px;
+}
+.TableName{
+    color: #DC4446;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ActionButton{
+    display: flex;
+    position: relative; 
+    gap: 20px;
+    align-items: center;
+    margin-right: 15px;
+}
+.Restock {
+    width: 98px;
+    height: 28px;
+    border-radius: 15px;
+    border: none;
+    background: #4A628A;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #FFF;
+    cursor: pointer;
+}
+.search_input_box {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    border: none;
+    background: rgba(240, 240, 240, 0.59);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.search_input {
+    border: none;
+    border-radius: 20px;
+    background: rgba(240, 240, 240, 0.59);
+  }
+  .search_input:focus {
+    outline: none;
+    border: none;
+  }
+.icon{
+    font-size: 14px;
+    margin: 3%;
+}
+.divider{
+    width: 94%;
+    height: 0;
+    position: absolute;
+    border: 1.5px #f0f0f0 solid;
+
+}
+.table_wrapper{
+    overflow-x: auto;
+}
+.branch_product_table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    gap: 10px;
+}
+.branch_product_table thead {
+ padding: 10px;
+ 
+}
+.branch_product_table th{
+ font-family: Roboto;
+ font-size: 20px;
+ text-align: center;
+ color: #4A628A;
+ padding: 10px;
+}
+.branch_product_table tbody{
+  padding: 8px;
+}
+.branch_product_table td {
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.branch_product_table .tbody .tr
+{
+  margin: 10px;
+}

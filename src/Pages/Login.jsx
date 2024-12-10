@@ -36,6 +36,7 @@ export const Login = () => {
             <label className={styles.formLabelText} htmlFor="email">Email Address</label><br />
             <input
               className={styles.formInput}
+              placeholder='abc@gmail.com'
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -44,17 +45,17 @@ export const Login = () => {
             <label className={styles.formLabelText} htmlFor="password">Password</label><br />
             <input
               className={styles.formInput}
+              placeholder='******'
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
+            <p className={styles.ForgotPasswordText}>Forgot Password?</p>
 
-            <button className={styles.ContinueButton} type="submit">Log In</button>
           </form>
+          <button className={styles.ContinueButton} onClick={login}>Log In</button>
 
           {errorMessage && <p className={styles.errorText}>{errorMessage}</p>}
-
-          <p className={styles.ForgotPasswordText}>Forgot Password?</p>
         </div>
       </div>
     </div>

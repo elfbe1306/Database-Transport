@@ -1,0 +1,140 @@
+.wrapper{
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  position: absolute;
+  padding: 10px 5px;
+  top: 155px;
+  left: 120px;
+  gap: 465px;
+}
+.bigTable{
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  padding: 60px 5px;
+  top: 150px;
+  left: 120px;
+  gap: 110px;
+  box-sizing: border-box;
+}
+
+.active_modal{
+  overflow-y: hidden;
+}
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal, .overlay {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.assign_container {
+  width: 365px;
+  height: 235px;
+  position: relative;
+  background: #C2E1E3;
+  justify-self: center;
+  align-self: center;
+}
+.assign_header {
+  position: absolute;
+  left: 150px;
+  top: 25px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.input_box {
+  width: 236px;
+  height: 23px;
+  position: absolute;
+  background: #F8F7F7;
+  border: 1px solid #DCD7D7;
+  margin-bottom: 38px;
+}
+.driver_box {
+  left: 88px;
+  top: 68px;
+}
+.time_box {
+  left: 88px;
+  top: 105px;
+}
+.note_box {
+  left: 88px;
+  top: 142px;
+}
+.arrow_icon {
+  width: 24px;
+  height: 21px;
+  position: absolute;
+}
+.time_arrow {
+  left: 299px;
+  top: 108px;
+}
+.driver_arrow {
+  left: 299px;
+  top: 71px;
+}
+.arrow_icon div {
+  width: 5.25px;
+  height: 10px;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+  background: #3A4163;
+  left: 7px;
+  top: 12.25px;
+}
+.label {
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.driver_label {
+  left: 20px;
+  top: 69px;
+}
+.time_label {
+  left: 20px;
+  top: 108px;
+}
+.note_label {
+  left: 20px;
+  top: 142px;
+}
+.save_button {
+  width: 51px;
+  height: 24px;
+  position: absolute;
+  background: black;
+  border-radius: 16px;
+  left: 273px;
+  top: 179px;
+}
+.save_text {
+  position: absolute;
+  left: 287px;
+  top: 185px;
+  text-align: center;
+  color: #C2E1E3;
+  font-size: 10px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
